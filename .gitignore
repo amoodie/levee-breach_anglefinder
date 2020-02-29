@@ -117,3 +117,5 @@ venv.bak/
 # credentials file
 /src/credentials.json
 /src/password.txt
+
+data_output/
