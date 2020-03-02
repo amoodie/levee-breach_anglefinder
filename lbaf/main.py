@@ -135,7 +135,7 @@ class RootPlot(object):
         self.angle_txt.set_text(' ')
         self.in_levee_pick = False
         self.levee_pick_cnt = 0
-        self.levee_pick_data = np.zeros((4,2))
+        self.levee_pick_data = np.full((3,2), np.nan)
         reset_mat = np.full((2,2), np.nan)
         self.firstline.set_data(reset_mat)
         self.secondline.set_data(reset_mat)
